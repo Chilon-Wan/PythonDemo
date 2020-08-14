@@ -21,17 +21,10 @@ label4 = Label(window, text='44444', bg='orange')
 
 
 # 布局
-label1.pack(side=LEFT, fill=Y)
-label2.pack(side=RIGHT, fill=Y)
-label3.pack(side=TOP, fill=X)
-label4.pack(side=BOTTOM, fill=X)
-
-
-
-
-
-
-
+label1.pack(side='left', fill='y')
+label2.pack(side='right', fill='y')
+label3.pack(side='top', fill='x')
+label4.pack(side='bottom', fill='x')
 
 
 # 进入消息循环
